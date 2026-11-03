@@ -1,0 +1,33 @@
+# 1. Environment & Secrets (STRICT - DO NOT COMMIT)
+.env
+.env.*
+!.env.example
+.secrets
+.dev.vars
+.demo.vars
+*.pem
+*.key
+*.cert
+
+# 2. Database & Local Data
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+**/*.db*
+
+# 3. Developer Tools & IDEs
+.DS_Store
+.vscode/
+.idea/
+.devcontainer/
+
+# 4. Agentic AI & Local Scripts
+.antigravity
+.gemini/
+.agent/
+.agents/
+.act/
+.actrc
+.event
+.example/
